@@ -17,7 +17,7 @@ exec commands :
 ansible-playbook /home/ansible/play.yml
 
 
-**---
+---
 - hosts: all
   become: true
   tasks:
@@ -29,4 +29,6 @@ ansible-playbook /home/ansible/play.yml
     #shell: docker image rm -f sakit333/project-4
    - name: create docker image
      shell: docker run -it -d --name qspider -p 8090:8080 sakit333/project-4:latest
-**
+
+![image](https://github.com/sakit333/project-4-jenkins-ansible-dockerhub-webapp/assets/120071904/af72c49f-0f92-437d-b915-633eea3df244)
+
