@@ -12,5 +12,6 @@ docker push sakit333/$JOB_NAME:latest
 docker rmi $JOB_NAME:v1.$BUILD_ID sakit333/$JOB_NAME:v1.$BUILD_ID sakit333/$JOB_NAME:latest
 
 
-exec commands
+exec commands : 
+
 ansible-playbook /home/ansible/play.yml
