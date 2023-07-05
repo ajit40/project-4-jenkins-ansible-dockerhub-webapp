@@ -9,5 +9,5 @@
 #   - name: remove docker images
 #     shell: docker image rm -f sakit333/project-4
    - name: create docker image
-     shell: docker run -it -d --name qspider -p 8090:8080 sakit333/project-4
+     shell: docker run -it -d --name qspider -p 8090:8080 sakit333/project-4:latest
 
