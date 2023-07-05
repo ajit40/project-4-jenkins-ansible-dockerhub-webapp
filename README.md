@@ -32,3 +32,6 @@ ansible-playbook /home/ansible/play.yml
 
 ![image](https://github.com/sakit333/project-4-jenkins-ansible-dockerhub-webapp/assets/120071904/af72c49f-0f92-437d-b915-633eea3df244)
 
+hosting of web app
+
+http://52.66.248.155:8090/project-4-jenkins-ansible-dockerhub-webapp/
